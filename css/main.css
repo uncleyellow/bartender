@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+}
+.header-home{
+    text-decoration: none;
+}
+.header-home-name{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #77ca64;
+}
+
+.header-search-btn{
+    width: 400px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.header-search-icon{
+    position: relative;
+    right: 30px;
+}
+.header-buy{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.header-icon{
+    position: relative;
+
+}
+.header-wraped{
+    background-color: red;
+    width: 40px;
+    height: 15px;
+}
+.header-list{
+    list-style: none;
+    position: fixed;
+    background-color: #77ca64;
+}
